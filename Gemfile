@@ -2,12 +2,14 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
+ruby '2.0.0'
 # Appserver
 
 gem 'unicorn', '4.6.3', :require => false
 
 # API and JSON
 
+gem 'heroku-api'
 gem 'acts_as_api', '0.4.1'
 gem 'json',        '1.8.0'
 
