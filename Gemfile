@@ -160,6 +160,9 @@ group :production do # we don't install these on travis to speed up test runs
 end
 
 group :development do
+  # Server
+  gem 'thin'
+
   # Comparison images
 
   gem 'rmagick', '2.13.2', :require => false
