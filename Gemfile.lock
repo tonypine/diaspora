@@ -157,6 +157,10 @@ GEM
     guard-cucumber (1.4.0)
       cucumber (>= 1.2.0)
       guard (>= 1.1.0)
+    guard-rails-assets (0.1.5)
+      guard
+      rails (>= 3.1.1)
+      rake
     guard-rspec (3.0.2)
       guard (>= 1.8)
       rspec (~> 2.13)
@@ -223,7 +227,6 @@ GEM
     multi_json (1.7.8)
     multi_test (0.0.2)
     multipart-post (1.2.0)
-    mysql2 (0.3.13)
     nested_form (0.3.2)
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
@@ -259,6 +262,7 @@ GEM
       addressable
       nokogiri
     orm_adapter (0.4.0)
+    pg (0.16.0)
     polyglot (0.3.3)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
@@ -460,6 +464,7 @@ DEPENDENCIES
   fuubar (= 1.1.1)
   gon (= 4.1.1)
   guard-cucumber (= 1.4.0)
+  guard-rails-assets (= 0.1.5)
   guard-rspec (= 3.0.2)
   guard-spork (= 1.5.1)
   haml (= 4.0.3)
@@ -473,7 +478,6 @@ DEPENDENCIES
   messagebus_ruby_api (= 1.0.3)
   mini_magick (= 3.6.0)
   mobile-fu (= 1.2.1)
-  mysql2 (= 0.3.13)
   nokogiri (= 1.6.0)
   omniauth (= 1.1.4)
   omniauth-facebook (= 1.4.1)
@@ -481,6 +485,7 @@ DEPENDENCIES
   omniauth-twitter (= 1.0.0)
   omniauth-wordpress (= 0.2.0)
   opengraph_parser (= 0.2.3)
+  pg (= 0.16.0)
   rack-cors (= 0.2.8)
   rack-google-analytics (= 0.11.0)
   rack-piwik (= 0.2.2)
